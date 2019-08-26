@@ -1,0 +1,26 @@
+// lines prefixed with double slashes count as commentary.
+// the following test will just load a file during the setup phase
+// and make it available in the test context. Read the documentation
+// to know more about scripting. 
+
+
+SETUP :
+
+
+// here we test the macro defined in shortcuts/sample_shortcut.macro. Note that none of the instructions here are case sensitive :
+
+TEST :
+
+# EXECUTE_SOAPUI libreplan.xml WITH TEST_SUITE ressources AND TEST_CASE Creer_un_ressource
+# EXECUTE_SOAPUI libreplan.xml WITH TEST_SUITE ressources AND TEST_CASE Recouperer_ressources
+# EXECUTE_SOAPUI libreplan.xml WITH TEST_SUITE ressources AND TEST_CASE Recouperer_un
+# EXECUTE_SOAPUI libreplan.xml WITH TEST_SUITE calendrier AND TEST_CASE Recouperer_calendriers
+# EXECUTE_SOAPUI libreplan.xml WITH TEST_SUITE calendrier AND TEST_CASE Recouperer_un
+# EXECUTE_SOAPUI libreplan.xml WITH TEST_SUITE projects AND TEST_CASE Projets
+# EXECUTE_SOAPUI libreplan.xml WITH TEST_SUITE projects AND TEST_CASE Supprimer_un
+# EXECUTE_SOAPUI libreplan.xml WITH TEST_SUITE projects AND TEST_CASE Recuperer_tous
+# EXECUTE_SOAPUI libreplan.xml WITH TEST_SUITE projects AND TEST_CASE recuperer_un
+
+
+
+
