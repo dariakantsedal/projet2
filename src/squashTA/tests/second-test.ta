@@ -11,10 +11,11 @@ SETUP :
 
 TEST :
 
-# EXECUTE_SOAPUI logicaldoc.xml WITH TEST_SUITE TestSuiteLogicaldoc5a8 AND TEST_CASE TestCase_chercher_un_document_par_mot_cle
+# EXECUTE_SOAPUI logicaldoc.xml WITH TEST_SUITE TestSuiteLogicaldoc5a8 AND TEST_CASE TestCase_chercher_un_document_par_nom
 # EXECUTE_SOAPUI logicaldoc.xml WITH TEST_SUITE TestSuiteLogicaldoc5a8 AND TEST_CASE TestCase_creer_un_repertoire
 # EXECUTE_SOAPUI logicaldoc.xml WITH TEST_SUITE TestSuiteLogicaldoc5a8 AND TEST_CASE Bookmark
 # EXECUTE_SOAPUI logicaldoc.xml WITH TEST_SUITE TestSuiteLogicaldoc5a8 AND TEST_CASE Bookmark_2
+# EXECUTE_SOAPUI logicaldoc.xml WITH TEST_SUITE TestSuiteLogicaldoc5a8 AND TEST_CASE Chercher_un_document_par_mot_cle
 //# EXECUTE_SOAPUI logicaldoc.xml WITH TEST_SUITE TestSuiteLogicaldoc5a8 AND TEST_CASE Mise_a_jour_document
 //# EXECUTE_SOAPUI logicaldoc.xml WITH TEST_SUITE TestSuiteLogicaldoc5a8 AND TEST_CASE SupprimerUnDocument
 //# EXECUTE_SOAPUI logicaldoc.xml WITH TEST_SUITE TestSuiteLogicaldoc5a8 AND TEST_CASE TestCase_chercher_un_document_par_date
