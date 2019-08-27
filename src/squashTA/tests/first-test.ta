@@ -11,7 +11,6 @@ SETUP :
 
 TEST :
 
-# EXECUTE_SOAPUI libreplan.xml WITH TEST_SUITE ressources AND TEST_CASE Creer_un_ressource
 # EXECUTE_SOAPUI libreplan.xml WITH TEST_SUITE ressources AND TEST_CASE Recouperer_ressources
 # EXECUTE_SOAPUI libreplan.xml WITH TEST_SUITE ressources AND TEST_CASE Recouperer_un
 # EXECUTE_SOAPUI libreplan.xml WITH TEST_SUITE calendrier AND TEST_CASE Recouperer_calendriers
